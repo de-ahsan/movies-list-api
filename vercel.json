@@ -11,6 +11,14 @@
         "src": "/.*",
         "dest": "src/index.ts"
       }
-    ]
+    ],
+    "build": {
+      "env": {
+        "MONGODB_URI": "@MONGODB_URI"
+      },
+      "commands": {
+        "postbuild": "npx ts-node src/db/userSeeder.ts"
+      }
+    }
   }
   
