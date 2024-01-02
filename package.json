@@ -11,7 +11,7 @@
   "license": "ISC",
   "keywords": [],
   "engines": {
-    "node": "20.x"
+    "node": "18.x"
   },
   "dependencies": {
     "@types/bcrypt": "^5.0.2",
